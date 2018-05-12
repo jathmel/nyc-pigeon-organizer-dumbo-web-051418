@@ -24,7 +24,7 @@ def pigeon_hash(data)
 end
 
 def nyc_pigeon_organizer(data)
-  organized = {}
+  result = {}
 
   data.each do |trait, options|
     options.each do |option, pigeons|
