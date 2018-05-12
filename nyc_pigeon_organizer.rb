@@ -14,3 +14,11 @@ def pigeon_name(hash)
   end
   result.uniq
 end
+
+def pigeon_hash(data)
+  pigeon_list = {}
+  pigeon_name(data).each do |name|
+    pigeon_list[name] = {}
+  end
+  pigeon_list
+end
