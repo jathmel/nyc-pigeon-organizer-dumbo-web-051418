@@ -9,7 +9,7 @@ def pigeon_name(hash)
   result = []
   hash.each do |key, value|
     value.each do |name|
-      name
+      name.each
       result += name
     end
   end
